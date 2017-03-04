@@ -1,0 +1,722 @@
+﻿Log file open, 03/01/17 21:15:15
+LogInit:Display: Running engine for game: TincleStarCollection
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1430872270) SRandInit(-1430872270).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.322744
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.12.0(build = 347531) feature version = 0. Client runs version (prod = 1).1.12.0(build = 347531) feature version = 0
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.01-12.15.19:106][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-12.15.19:106][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.01-12.15.19:264][  0]LogInit: Computer: DESKTOP-TUHPJ9K
+[2017.03.01-12.15.19:264][  0]LogInit: User: BelL
+[2017.03.01-12.15.19:264][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.01-12.15.19:264][  0]LogInit: High frequency timer resolution =3.914062 MHz
+[2017.03.01-12.15.19:264][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.01-12.15.19:264][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.01-12.15.19:264][  0]LogMemory: Process Physical Memory: 267.90 MB used, 267.90 MB peak
+[2017.03.01-12.15.19:264][  0]LogMemory: Process Virtual Memory: 265.89 MB used, 265.89 MB peak
+[2017.03.01-12.15.19:264][  0]LogMemory: Physical Memory: 5991.86 MB used,  10306.64 MB free, 16298.51 MB total
+[2017.03.01-12.15.19:264][  0]LogMemory: Virtual Memory: 684.71 MB used,  10306.64 MB free, 134217728.00 MB total
+[2017.03.01-12.15.24:522][  0]LogTextLocalizationManager: No specific translations for ('ja-JP') exist, so ('ja') translations will be used.
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (真の場合、Relevant anim ノードはアニメーションで最も高いウェイトのものを無視します。
+このノード)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (319969718) Localized String: (真の場合、アニメーションで最も高いウェイトのものを無視するRelevant anim ノードは
+このノードを無視します)
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (再生が最後まで終わった後、ループ再生するようにしますか？)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースで値を取得するX座標)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースでサンプリングするX座標)
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースで値を取得するY座標)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースでサンプリングするY座標)
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースで値を取得するZ座標)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースでサンプリングするZ座標)
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (再生するブレンドスペースのアセット)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1599043277) Localized String: (再生するブレンド空間アセット)
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (このマシーンで1フレームあたりに同時に処理できるトランジションの最大数)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1567650430) Localized String: (単一フレームでマシーンが「同時」に受け取れる遷移の最大数)
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (2133979316) Localized String: (最後に到達した時にアニメーションのループを継続しますか？)
+[2017.03.01-12.15.24:867][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+[2017.03.01-12.15.31:947][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.01-12.15.32:369][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2017.03.01-12.15.32:369][  0]LogD3D11RHI:       6102/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.03.01-12.15.32:372][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.01-12.15.32:372][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.01-12.15.32:372][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.01-12.15.32:411][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.01-12.15.32:411][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.01-12.15.32:411][  0]LogWindows: EnumDisplayDevices:
+[2017.03.01-12.15.32:411][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2017.03.01-12.15.32:412][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:1)
+[2017.03.01-12.15.32:412][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:1)
+[2017.03.01-12.15.32:412][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.03.01-12.15.32:412][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.01-12.15.32:412][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2017.03.01-12.15.32:412][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.03.01-12.15.32:412][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.03.01-12.15.32:430][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.01-12.15.32:827][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.01-12.15.33:101][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.01-12.15.33:307][  0]LogShaderCompilers: Guid format shader working directory is -51 characters bigger than the processId version (../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Intermediate/Shaders/WorkingDirectory/20164/).
+[2017.03.01-12.15.33:307][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BelL/AppData/Local/Temp/UnrealShaderWorkingDir/3A14178C4CFD21E6397780936C42D827/'.
+[2017.03.01-12.15.33:307][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.01-12.15.35:982][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.01-12.15.36:014][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.01-12.15.36:046][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.01-12.15.36:078][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.01-12.15.36:125][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.01-12.15.36:157][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.01-12.15.36:189][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.01-12.15.36:220][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.01-12.15.36:254][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.01-12.15.36:288][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.01-12.15.36:321][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.01-12.15.36:352][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.01-12.15.36:384][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.01-12.15.36:415][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.01-12.15.36:448][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.01-12.15.36:511][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.01-12.15.36:511][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.01-12.15.36:531][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.01-12.15.36:637][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.01-12.15.36:659][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.01-12.15.36:691][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.01-12.15.36:722][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.01-12.15.36:754][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.01-12.15.36:788][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.01-12.15.36:788][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.01-12.15.37:557][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.01-12.15.37:871][  0]LogDerivedDataCache: Loaded boot cache 0.31s 50MB C:/Users/BelL/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.01-12.15.37:871][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/BelL/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.01-12.15.37:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.01-12.15.37:871][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.01-12.15.37:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.01-12.15.37:871][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.01-12.15.37:937][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.01-12.15.37:948][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BelL/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.01-12.15.38:070][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.01-12.15.38:120][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-12.15.38:121][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-12.15.44:183][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-12.15.44:223][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.01-12.15.44:743][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.01-12.15.44:875][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.01-12.15.44:935][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.01-12.15.44:935][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.01-12.15.44:935][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.01-12.15.48:066][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: tinclestarcollection, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2208433454
+[2017.03.01-12.15.48:155][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2017.03.01-12.15.48:340][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.087167 seconds
+[2017.03.01-12.15.48:344][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.01-12.15.48:344][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.01-12.15.48:344][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.01-12.15.48:401][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.01-12.15.53:602][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.01-12.15.53:642][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.01-12.15.54:586][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.01-12.15.55:043][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.03.01-12.15.55:089][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.03.01-12.15.55:138][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.03.01-12.15.55:181][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.03.01-12.15.56:787][  0]LogEngine: Initializing Engine...
+[2017.03.01-12.15.58:489][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(504ecll)
+[2017.03.01-12.15.58:489][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(504ecll)
+[2017.03.01-12.15.58:489][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.03.01-12.15.58:523][  0]LogHMD: Oculus plugin initialized. Version: 4.15.0-3299760+++UE4+Release-4.15, LibOVR: 1.12.0, SDK: 1.10.0, built Feb 14 2017, 02:10:09
+[2017.03.01-12.16.01:581][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.01-12.16.01:890][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.01-12.16.01:913][  0]LogInit: FAudioDevice initialized.
+[2017.03.01-12.16.01:932][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/BelL/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.01-12.16.01:939][  0]LogInit: Texture streaming: Enabled
+[2017.03.01-12.16.02:050][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.01-12.16.02:253][  0]LogInit: Transaction tracking system initialized
+[2017.03.01-12.16.02:808][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(504ecll)
+[2017.03.01-12.16.02:808][  0]BlueprintLog: New page: エディタの読み込み
+[2017.03.01-12.16.05:435][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.03.01-12.16.06:136][  0]LogConsoleResponse:Display: 
+[2017.03.01-12.16.06:905][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/' took 0.01s
+[2017.03.01-12.16.06:905][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.01-12.16.06:905][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.01-12.16.08:324][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.03.01-12.16.08:360][  0]Cmd: MAP LOAD FILE="../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/GameMain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.01-12.16.08:361][  0]LightingResults: New page: ライティングのビルド
+[2017.03.01-12.16.08:472][  0]MapCheck: New page: マップをチェック
+[2017.03.01-12.16.08:472][  0]LightingResults: New page: <何も選択されていません>
+[2017.03.01-12.16.11:226][  0]LogClass:Warning: Enum '/Game/MazePlanet/BluePrints/MainGameScene/InGameState.InGameState' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.01-12.16.11:361][  0]LogAIModule: Creating AISystem for world GameMain
+[2017.03.01-12.16.11:685][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.01-12.16.11:708][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-12.16.11:737][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 29.295ミリ秒かかりました。
+[2017.03.01-12.16.11:737][  0]LogFileHelpers: Loading map 'GameMain' took 3.393
+[2017.03.01-12.16.12:287][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.03.01-12.16.12:778][  0]LogCollectionManager: Loaded 0 collections in 0.000647 seconds
+[2017.03.01-12.16.12:907][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Collections/' took 0.01s
+[2017.03.01-12.16.12:907][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/Developers/BelL/Collections/' took 0.01s
+[2017.03.01-12.16.12:907][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/Collections/' took 0.01s
+[2017.03.01-12.16.12:907][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.01-12.16.12:940][  0]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2244 classes and 450 folders.
+[2017.03.01-12.16.12:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.01-12.16.12:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.01-12.16.13:005][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.01-12.16.13:877][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.01-12.16.13:950][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.01-12.16.14:502][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.01-12.16.14:598][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.03.01-12.16.14:750][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.01-12.16.14:750][  0]LogLoad: (Engine Initialization) Total time: 66.55 seconds
+[2017.03.01-12.16.14:750][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.77 seconds
+[2017.03.01-12.16.14:750][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.01-12.16.14:750][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.01-12.16.14:771][  0]LogOcInput: OculusInput pre-init called
+[2017.03.01-12.16.14:784][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.12.0
+[2017.03.01-12.16.14:864][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.01-12.16.14:919][  0]LogSlate: Took 0.012294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.01-12.16.14:974][  0]LogSlate: Took 0.052478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.03.01-12.16.14:978][  0]LogSlate: Took 0.003046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.01-12.16.15:000][  0]LogSlate: Took 0.008863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.01-12.16.15:383][  0]LogRenderer: Reallocating scene render targets to support 1208x560 NumSamples 1 (Frame:2).
+[2017.03.01-12.16.15:383][  0]LogSlate: Took 0.003775 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.01-12.16.16:335][  3]LogAssetRegistry: Asset discovery search completed in 28.2016 seconds
+[2017.03.01-12.16.16:335][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.03.01-12.16.16:335][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.03.01-12.21.10:980][330]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-12.21.11:684][414]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-12.21.12:054][415]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-12.21.12:350][416]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-12.21.12:350][416]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-12.21.15:594][742]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-12.32.54:557][984]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-12.32.54:557][984]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-12.56.35:594][472]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-13.06.59:599][344]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-13.06.59:600][344]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-13.10.09:599][914]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-13.20.29:603][774]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-13.20.29:603][774]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-13.41.04:325][646]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-13.51.22:885][868]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-13.51.22:885][868]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-17.36.31:724][493]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-18.07.38:559][482]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-18.07.38:559][482]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-18.25.57:749][375]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-18.36.14:147][331]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-18.36.14:147][331]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-19.30.43:412][610]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-19.49.39:161][873]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-19.49.39:161][873]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-19.55.29:489][911]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-20.05.47:285][ 40]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-20.05.47:285][ 40]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-20.20.28:026][720]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-20.30.44:800][717]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-20.30.44:800][717]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-20.30.59:008][422]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-20.41.15:185][351]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-20.41.15:185][351]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-21.18.59:425][ 41]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-21.32.56:109][430]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-21.32.56:109][430]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-21.48.12:818][427]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-22.03.27:466][172]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-22.03.27:466][172]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-22.11.33:410][480]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-22.35.42:118][302]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-22.35.42:118][302]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-22.39.53:625][478]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-23.05.10:735][499]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-23.05.10:735][499]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.01-23.59.13:269][237]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.02-00.09.29:955][797]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.02-00.09.29:955][797]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(604ecll)
+[2017.03.02-00.30.26:520][756]LogTemp: Repeting last play command: 選択ビューポート
+[2017.03.02-00.30.26:569][756]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameMain.GameMain:PersistentLevel' has LevelScriptBlueprint '/Game/GameMain.GameMain:PersistentLevel.GameMain' with GeneratedClass '/Game/GameMain.GameMain_C' with ClassGeneratedBy '/Game/GameMain.GameMain:PersistentLevel.GameMain'
+[2017.03.02-00.30.26:587][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.02-00.30.27:111][756]OCULUS: Debug: [HMDState] Using default profile default
+[2017.03.02-00.30.27:111][756]OCULUS: Info: IAD changed to 64.1mm
+[2017.03.02-00.30.27:111][756]OCULUS: Debug: [SharedMemory] Creating factory
+[2017.03.02-00.30.27:111][756]LogHMD: New ovr session is created
+[2017.03.02-00.30.27:112][756]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.03.02-00.30.27:310][756]PIE: New page: PIEセッション: GameMain (2017/03/02 18:30:27)
+[2017.03.02-00.30.27:325][756]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameMain
+[2017.03.02-00.30.27:420][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094679s)
+[2017.03.02-00.30.27:424][756]LogAIModule: Creating AISystem for world GameMain
+[2017.03.02-00.30.27:425][756]LogPlayLevel: PIE: World Init took: (0.004953s)
+[2017.03.02-00.30.27:448][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameMain.GameMain to /Game/UEDPIE_0_GameMain.GameMain (0.131278s)
+[2017.03.02-00.30.27:629][756]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.02-00.30.27:644][756]LogInit: FAudioDevice initialized.
+[2017.03.02-00.30.27:794][756]LogLoad: Game class is 'GameModeBase'
+[2017.03.02-00.30.27:901][756]LogWorld: Bringing World /Game/UEDPIE_0_GameMain.GameMain up for play (max tick rate 0) at 2017.03.02-09.30.27
+[2017.03.02-00.30.27:981][756]LogWorld: Bringing up level for play took: 0.095209
+[2017.03.02-00.30.30:870][756]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.03.02-00.30.31:029][756]Cmd: hmd pd 0.9
+[2017.03.02-00.30.31:190][756]LogScript:Warning: Accessed None trying to read property PlanetActor
+	TwincleStar_C /Game/UEDPIE_0_GameMain.GameMain:PersistentLevel.TwincleStar_C_0
+	Function /Game/MazePlanet/BluePrints/TwincleStar.TwincleStar_C:ExecuteUbergraph_TwincleStar:05BC
+[2017.03.02-00.30.31:199][756]PIE:Error: エラー Blueprint Runtime Error: Accessed None trying to read property PlanetActor from function: 'ExecuteUbergraph_TwincleStar' from node: SetActorLocation in graph: SpawnStar in object: TwincleStar with description: Accessed None trying to read property PlanetActor
+[2017.03.02-00.30.31:212][756]LogScript:Warning: Accessed None trying to read property PlanetActor
+	TwincleStar_C /Game/UEDPIE_0_GameMain.GameMain:PersistentLevel.TwincleStar_C_1
+	Function /Game/MazePlanet/BluePrints/TwincleStar.TwincleStar_C:ExecuteUbergraph_TwincleStar:05BC
+[2017.03.02-00.30.31:212][756]PIE:Error: エラー Blueprint Runtime Error: Accessed None trying to read property PlanetActor from function: 'ExecuteUbergraph_TwincleStar' from node: SetActorLocation in graph: SpawnStar in object: TwincleStar with description: Accessed None trying to read property PlanetActor
+[2017.03.02-00.30.31:212][756]LogScript:Warning: Accessed None trying to read property PlanetActor
+	TwincleStar_C /Game/UEDPIE_0_GameMain.GameMain:PersistentLevel.TwincleStar_C_2
+	Function /Game/MazePlanet/BluePrints/TwincleStar.TwincleStar_C:ExecuteUbergraph_TwincleStar:05BC
+[2017.03.02-00.30.31:212][756]PIE:Error: エラー Blueprint Runtime Error: Accessed None trying to read property PlanetActor from function: 'ExecuteUbergraph_TwincleStar' from node: SetActorLocation in graph: SpawnStar in object: TwincleStar with description: Accessed None trying to read property PlanetActor
+[2017.03.02-00.30.31:212][756]LogScript:Warning: Accessed None trying to read property PlanetActor
+	TwincleStar_C /Game/UEDPIE_0_GameMain.GameMain:PersistentLevel.TwincleStar_C_3
+	Function /Game/MazePlanet/BluePrints/TwincleStar.TwincleStar_C:ExecuteUbergraph_TwincleStar:05BC
+[2017.03.02-00.30.31:213][756]PIE:Error: エラー Blueprint Runtime Error: Accessed None trying to read property PlanetActor from function: 'ExecuteUbergraph_TwincleStar' from node: SetActorLocation in graph: SpawnStar in object: TwincleStar with description: Accessed None trying to read property PlanetActor
+[2017.03.02-00.30.31:213][756]LogScript:Warning: Accessed None trying to read property PlanetActor
+	TwincleStar_C /Game/UEDPIE_0_GameMain.GameMain:PersistentLevel.TwincleStar_C_4
+	Function /Game/MazePlanet/BluePrints/TwincleStar.TwincleStar_C:ExecuteUbergraph_TwincleStar:05BC
+[2017.03.02-00.30.31:213][756]PIE:Error: エラー Blueprint Runtime Error: Accessed None trying to read property PlanetActor from function: 'ExecuteUbergraph_TwincleStar' from node: SetActorLocation in graph: SpawnStar in object: TwincleStar with description: Accessed None trying to read property PlanetActor
+[2017.03.02-00.30.31:233][756]PIE: 情報 /Game/UEDPIE_0_GameMain 4.811のプレイ イン エディタの開始時間
+[2017.03.02-00.30.31:234][756]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameMain.GameMain:PersistentLevel' has LevelScriptBlueprint '/Game/GameMain.GameMain:PersistentLevel.GameMain' with GeneratedClass '/Game/GameMain.GameMain_C' with ClassGeneratedBy '/Game/GameMain.GameMain:PersistentLevel.GameMain'
+[2017.03.02-00.30.33:187][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameMain.GameMain:PersistentLevel' has LevelScriptBlueprint '/Game/GameMain.GameMain:PersistentLevel.GameMain' with GeneratedClass '/Game/GameMain.GameMain_C' with ClassGeneratedBy '/Game/GameMain.GameMain:PersistentLevel.GameMain'
+[2017.03.02-00.30.33:188][951]LogHMD: Destroying ovr session
+[2017.03.02-00.30.33:230][951]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(4b0902ll)
+[2017.03.02-00.30.33:345][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameMain.GameMain:PersistentLevel' has LevelScriptBlueprint '/Game/GameMain.GameMain:PersistentLevel.GameMain' with GeneratedClass '/Game/GameMain.GameMain_C' with ClassGeneratedBy '/Game/GameMain.GameMain:PersistentLevel.GameMain'
+[2017.03.02-00.30.36:535][300]LogEditorViewport: Clicking on Actor (LMB): Player_C (HMDLocomotionPawn2)
+[2017.03.02-00.30.40:161][588]LogSlate: Took 0.026172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.02-00.30.42:730][861]LogEditorActor: Deleted Actor: Player_C
+[2017.03.02-00.30.42:758][861]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2017.03.02-00.30.57:548][620]LogSlate: Took 0.012232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.02-00.30.58:080][620]LogSlate: Took 0.014357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.02-00.30.58:261][620]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.03.02-00.30.59:460][620]LogSlate: Took 0.013220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.02-00.32.22:501][405]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.02-00.32.26:156][417]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(e0f5all)
+[2017.03.02-00.32.31:962][984]LogSavePackage: Save=302.85ms
+[2017.03.02-00.32.31:962][984]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/GameMain_Auto1F8DCE89F4490AB4FB8E98E820DA53904.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/GameMain_Auto1.umap'
+[2017.03.02-00.32.31:967][984]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/GameMain_Auto1.umap
+[2017.03.02-00.32.31:994][984]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameMain' took 0.794
+[2017.03.02-00.32.31:994][984]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.794
+[2017.03.02-00.32.31:995][984]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MazePlanet/BluePrints/Room] ([1] browsable assets)...
+[2017.03.02-00.32.32:023][984]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MazePlanet/BluePrints/Room.Room]
+[2017.03.02-00.32.32:023][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/MazePlanet/BluePrints/Room]
+[2017.03.02-00.32.32:075][984]LogSavePackage: Save=46.07ms
+[2017.03.02-00.32.32:075][984]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Room_Auto15FCC37124DC502363171EBA7134FE79A.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto1.uasset'
+[2017.03.02-00.32.32:087][984]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto1.uasset
+[2017.03.02-00.32.32:087][984]LogFileHelpers: Auto-saving content packages took 0.092
+[2017.03.02-00.52.24:327][498]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-00.52.24:327][498]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-00.59.23:024][209]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-01.09.43:318][786]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-01.09.43:318][786]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-01.35.33:560][985]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-01.54.21:421][134]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-01.54.21:421][134]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-02.14.31:242][662]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-02.28.10:846][217]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-02.28.10:846][217]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-02.33.48:664][374]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-02.53.24:862][136]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-02.53.24:862][136]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-03.15.42:798][ 77]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-03.35.13:740][370]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-03.35.13:740][370]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-03.41.05:511][120]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-04.00.34:831][ 56]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-04.00.34:831][ 56]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-04.08.24:087][760]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-04.18.40:854][959]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-04.18.40:854][959]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-04.29.57:978][400]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2090a9all)
+[2017.03.02-04.41.11:304][499]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameMain' took 0.029
+[2017.03.02-04.41.11:305][499]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MazePlanet/BluePrints/Room] ([1] browsable assets)...
+[2017.03.02-04.41.11:316][499]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MazePlanet/BluePrints/Room.Room]
+[2017.03.02-04.41.11:316][499]OBJ SavePackage: Finished generating thumbnails for package [/Game/MazePlanet/BluePrints/Room]
+[2017.03.02-04.41.11:357][499]LogSavePackage: Save=34.21ms
+[2017.03.02-04.41.11:357][499]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Room_Auto2E453F3E14792A92B468B66ADAE9D2A45.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto2.uasset'
+[2017.03.02-04.41.11:358][499]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto2.uasset
+[2017.03.02-04.41.11:358][499]LogFileHelpers: Auto-saving content packages took 0.053
+[2017.03.02-04.49.09:321][864]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(4b0902ll)
+[2017.03.02-04.49.09:321][864]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(4b0902ll)
+[2017.03.02-04.49.58:750][664]BlueprintLog: New page: Room をコンパイル
+[2017.03.02-04.49.59:002][664]LogSavePackage: Save=37.87ms
+[2017.03.02-04.49.59:002][664]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Room1BCFE8694EC49DABEE18E483CAE339B5.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/MazePlanet/BluePrints/Room.uasset'
+[2017.03.02-04.49.59:005][664]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/MazePlanet/BluePrints/Room.uasset
+[2017.03.02-04.51.02:038][882]LogSlate: Took 0.014566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.03.02-04.51.52:068][506]LogEditorTransaction: Undo ノードを移動
+[2017.03.02-04.51.52:528][533]LogEditorTransaction: Undo 選択対象を削除
+[2017.03.02-04.51.53:216][598]LogEditorTransaction: Undo Reroute ノードを作成
+[2017.03.02-04.53.33:728][319]LogSavePackage: Save=94.40ms
+[2017.03.02-04.53.33:728][319]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/GameMain_Auto3D0DB679D4ED87DED71441C98E58BD48C.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/GameMain_Auto3.umap'
+[2017.03.02-04.53.33:728][319]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/GameMain_Auto3.umap
+[2017.03.02-04.53.33:731][319]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameMain' took 0.131
+[2017.03.02-04.53.33:731][319]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.131
+[2017.03.02-04.53.33:732][319]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MazePlanet/BluePrints/Room] ([1] browsable assets)...
+[2017.03.02-04.53.33:742][319]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MazePlanet/BluePrints/Room.Room]
+[2017.03.02-04.53.33:742][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/MazePlanet/BluePrints/Room]
+[2017.03.02-04.53.33:779][319]LogSavePackage: Save=33.88ms
+[2017.03.02-04.53.33:779][319]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Room_Auto3B6A030FA4EC71542DF79428CABE9112F.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto3.uasset'
+[2017.03.02-04.53.33:780][319]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto3.uasset
+[2017.03.02-04.53.33:780][319]LogFileHelpers: Auto-saving content packages took 0.048
+[2017.03.02-04.54.10:174][503]BlueprintLog: New page: Room をコンパイル
+[2017.03.02-04.54.10:332][503]LogSavePackage: Save=34.67ms
+[2017.03.02-04.54.10:332][503]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Room40825A3949F1BAA2494C04B11A1DF099.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/MazePlanet/BluePrints/Room.uasset'
+[2017.03.02-04.54.10:337][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/MazePlanet/BluePrints/Room.uasset
+[2017.03.02-05.03.34:534][336]LogSavePackage: Save=95.71ms
+[2017.03.02-05.03.34:534][336]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/GameMain_Auto4067D86174E9C75B5B727EF8B52DD227E.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/GameMain_Auto4.umap'
+[2017.03.02-05.03.34:535][336]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/GameMain_Auto4.umap
+[2017.03.02-05.03.34:536][336]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameMain' took 0.130
+[2017.03.02-05.03.34:536][336]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.130
+[2017.03.02-05.03.34:537][336]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MazePlanet/BluePrints/Room] ([1] browsable assets)...
+[2017.03.02-05.03.34:547][336]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MazePlanet/BluePrints/Room.Room]
+[2017.03.02-05.03.34:547][336]OBJ SavePackage: Finished generating thumbnails for package [/Game/MazePlanet/BluePrints/Room]
+[2017.03.02-05.03.34:587][336]LogSavePackage: Save=33.42ms
+[2017.03.02-05.03.34:587][336]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Room_Auto40B8FCFCB40AE5F022311D18C5B495943.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto4.uasset'
+[2017.03.02-05.03.34:588][336]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto4.uasset
+[2017.03.02-05.03.34:588][336]LogFileHelpers: Auto-saving content packages took 0.051
+[2017.03.02-05.20.18:121][278]LogSavePackage: Save=95.00ms
+[2017.03.02-05.20.18:121][278]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/GameMain_Auto54AA48BBC4E2F9424CC333CA822BDCDFE.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/GameMain_Auto5.umap'
+[2017.03.02-05.20.18:122][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/GameMain_Auto5.umap
+[2017.03.02-05.20.18:124][278]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameMain' took 0.132
+[2017.03.02-05.20.18:124][278]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.132
+[2017.03.02-05.20.18:126][278]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MazePlanet/BluePrints/Room] ([1] browsable assets)...
+[2017.03.02-05.20.18:136][278]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MazePlanet/BluePrints/Room.Room]
+[2017.03.02-05.20.18:136][278]OBJ SavePackage: Finished generating thumbnails for package [/Game/MazePlanet/BluePrints/Room]
+[2017.03.02-05.20.18:175][278]LogSavePackage: Save=33.80ms
+[2017.03.02-05.20.18:175][278]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Room_Auto5CFBE7F64486D3DC3BEAA18989A3393CC.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto5.uasset'
+[2017.03.02-05.20.18:176][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Autosaves/Game/MazePlanet/BluePrints/Room_Auto5.uasset
+[2017.03.02-05.20.18:176][278]LogFileHelpers: Auto-saving content packages took 0.051
+[2017.03.02-05.46.59:389][457]BlueprintLog: New page: Room をコンパイル
+[2017.03.02-05.46.59:563][457]LogSavePackage: Save=34.08ms
+[2017.03.02-05.46.59:563][457]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/RoomB99EF9614478114F5762D29431B85490.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/MazePlanet/BluePrints/Room.uasset'
+[2017.03.02-05.46.59:566][457]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/MazePlanet/BluePrints/Room.uasset
+[2017.03.02-05.47.14:234][628]LogSavePackage: Save=94.19ms
+[2017.03.02-05.47.14:234][628]LogSavePackage: Moving '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/GameMain43EA8B8E4A3A36845246A68B72EDDB5F.tmp' to '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/GameMain.umap'
+[2017.03.02-05.47.14:236][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/GameMain.umap
+[2017.03.02-05.47.14:275][628]LogFileHelpers: Saving map 'GameMain' took 2.933
+[2017.03.02-05.47.14:599][628]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.03.02-05.47.14:943][629]Cmd: QUIT_EDITOR
+[2017.03.02-05.47.15:909][629]LogExit: Preparing to exit.
+[2017.03.02-05.47.17:103][629]LogDirectoryWatcher: A directory notification for 'D:/Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/' was aborted.
+[2017.03.02-05.47.17:360][629]LogExit: Editor shut down
+[2017.03.02-05.47.17:361][629]LogExit: Transaction tracking system shut down
+[2017.03.02-05.47.18:335][629]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.02-05.47.18:336][629]LogExit: Object subsystem successfully closed.
+[2017.03.02-05.47.18:478][629]LogD3D11RHI: Shutdown
+[2017.03.02-05.47.18:478][629]LogD3D11RHI: CleanupD3DDevice
+[2017.03.02-05.47.18:573][629]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.02-05.47.19:085][629]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.03.02-05.47.19:085][629]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.03.02-05.47.19:116][629]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (498)
+[2017.03.02-05.47.19:116][629]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.03.02-05.47.19:122][629]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.03.02-05.47.19:122][629]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.03.02-05.47.19:122][629]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.03.02-05.47.19:127][629]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.02-05.47.19:147][629]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.03.02-05.47.19:147][629]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.03.02-05.47.19:147][629]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.03.02-05.47.19:159][629]LogDirectoryWatcher: A directory notification for 'D:/Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/Collections/' was aborted.
+[2017.03.02-05.47.19:159][629]LogDirectoryWatcher: A directory notification for 'D:/Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/Developers/BelL/Collections/' was aborted.
+[2017.03.02-05.47.19:159][629]LogDirectoryWatcher: A directory notification for 'D:/Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Saved/Collections/' was aborted.
+[2017.03.02-05.47.19:159][629]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.03.02-05.47.19:168][629]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.03.02-05.47.19:168][629]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.03.02-05.47.19:168][629]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.03.02-05.47.19:168][629]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.03.02-05.47.19:168][629]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.03.02-05.47.19:168][629]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.03.02-05.47.19:168][629]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.03.02-05.47.19:180][629]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.03.02-05.47.19:182][629]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.03.02-05.47.19:188][629]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.03.02-05.47.19:197][629]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.03.02-05.47.19:204][629]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.03.02-05.47.19:244][629]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.03.02-05.47.19:255][629]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.03.02-05.47.19:280][629]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.03.02-05.47.19:280][629]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.03.02-05.47.19:280][629]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.03.02-05.47.19:280][629]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.03.02-05.47.19:280][629]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.03.02-05.47.19:290][629]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.03.02-05.47.19:299][629]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.03.02-05.47.19:311][629]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.03.02-05.47.19:311][629]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.03.02-05.47.19:311][629]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.03.02-05.47.19:311][629]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.03.02-05.47.19:316][629]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.03.02-05.47.19:632][629]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.03.02-05.47.19:632][629]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.03.02-05.47.19:632][629]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.03.02-05.47.19:633][629]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.03.02-05.47.19:646][629]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.03.02-05.47.19:652][629]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.03.02-05.47.19:662][629]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.03.02-05.47.19:662][629]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.03.02-05.47.19:662][629]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.03.02-05.47.19:671][629]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.03.02-05.47.19:690][629]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.03.02-05.47.19:696][629]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.03.02-05.47.19:708][629]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.03.02-05.47.19:717][629]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.03.02-05.47.19:717][629]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.03.02-05.47.19:726][629]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.03.02-05.47.19:732][629]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.03.02-05.47.19:732][629]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.03.02-05.47.19:732][629]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.03.02-05.47.19:732][629]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.03.02-05.47.19:733][629]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.03.02-05.47.19:748][629]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.03.02-05.47.19:768][629]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.03.02-05.47.19:785][629]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.03.02-05.47.19:796][629]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.03.02-05.47.19:839][629]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.03.02-05.47.19:853][629]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.03.02-05.47.19:870][629]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.03.02-05.47.19:890][629]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.03.02-05.47.19:890][629]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.03.02-05.47.19:895][629]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.03.02-05.47.19:896][629]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.03.02-05.47.19:913][629]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.03.02-05.47.19:913][629]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.03.02-05.47.19:928][629]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.03.02-05.47.19:928][629]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.03.02-05.47.19:928][629]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.03.02-05.47.19:936][629]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.03.02-05.47.19:937][629]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.03.02-05.47.19:942][629]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.03.02-05.47.19:946][629]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.03.02-05.47.19:954][629]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.03.02-05.47.19:954][629]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.03.02-05.47.19:954][629]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.03.02-05.47.19:954][629]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.03.02-05.47.19:954][629]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.03.02-05.47.19:954][629]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.03.02-05.47.19:954][629]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.03.02-05.47.19:954][629]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.03.02-05.47.19:964][629]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.03.02-05.47.19:975][629]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.03.02-05.47.19:975][629]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.03.02-05.47.20:069][629]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.03.02-05.47.20:098][629]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.03.02-05.47.20:098][629]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.03.02-05.47.20:098][629]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.03.02-05.47.20:098][629]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.03.02-05.47.20:106][629]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.03.02-05.47.20:106][629]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.03.02-05.47.20:106][629]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.03.02-05.47.20:106][629]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.03.02-05.47.20:106][629]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.03.02-05.47.20:109][629]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.03.02-05.47.20:109][629]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.03.02-05.47.20:134][629]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.03.02-05.47.20:134][629]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.03.02-05.47.20:142][629]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.03.02-05.47.20:142][629]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.03.02-05.47.20:149][629]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.03.02-05.47.20:149][629]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.03.02-05.47.20:149][629]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.03.02-05.47.20:149][629]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.03.02-05.47.20:149][629]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.03.02-05.47.20:166][629]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.03.02-05.47.20:175][629]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.03.02-05.47.20:175][629]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.03.02-05.47.20:175][629]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.03.02-05.47.20:175][629]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.03.02-05.47.20:175][629]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.03.02-05.47.20:194][629]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.03.02-05.47.20:202][629]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.03.02-05.47.20:206][629]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.03.02-05.47.20:218][629]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.03.02-05.47.20:218][629]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.03.02-05.47.20:218][629]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.03.02-05.47.20:218][629]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.03.02-05.47.20:230][629]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.03.02-05.47.20:234][629]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.03.02-05.47.20:251][629]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.03.02-05.47.20:267][629]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.03.02-05.47.20:267][629]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.03.02-05.47.20:288][629]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.03.02-05.47.20:290][629]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.03.02-05.47.20:295][629]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.03.02-05.47.20:295][629]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.03.02-05.47.20:295][629]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.03.02-05.47.20:396][629]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.03.02-05.47.20:500][629]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.02-05.47.20:517][629]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.02-05.47.20:533][629]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.02-05.47.20:533][629]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.02-05.47.20:533][629]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.02-05.47.20:542][629]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.02-05.47.20:552][629]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.02-05.47.20:571][629]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.02-05.47.20:571][629]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.02-05.47.20:571][629]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.02-05.47.20:579][629]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.02-05.47.20:579][629]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.02-05.47.20:579][629]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.02-05.47.20:609][629]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.02-05.47.20:609][629]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.02-05.47.20:619][629]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.02-05.47.20:626][629]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.02-05.47.20:654][629]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.02-05.47.20:671][629]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.02-05.47.20:715][629]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.02-05.47.20:715][629]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.02-05.47.20:715][629]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.02-05.47.20:736][629]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.02-05.47.20:736][629]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.02-05.47.20:738][629]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.02-05.47.20:741][629]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.02-05.47.20:741][629]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.02-05.47.20:741][629]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.02-05.47.20:741][629]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.02-05.47.20:741][629]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.02-05.47.20:915][629]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.02-05.47.20:915][629]LogDirectoryWatcher: A directory notification for '../../../../../../Users/BelL/Documents/OnGitProjects/TwinkleStarCollection/TincleStarCollection/Content/' was aborted.
+[2017.03.02-05.47.20:915][629]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.02-05.47.20:923][629]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.02-05.47.20:926][629]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.02-05.47.20:926][629]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.02-05.47.20:926][629]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.02-05.47.20:956][629]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.02-05.47.20:974][629]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.02-05.47.20:974][629]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.02-05.47.20:982][629]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.02-05.47.20:982][629]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.02-05.47.21:022][629]LogDerivedDataCache: Shutdown
+[2017.03.02-05.47.21:022][629]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.02-05.47.21:022][629]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.02-05.47.21:028][629]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.02-05.47.21:043][629]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.02-05.47.21:053][629]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.02-05.47.21:060][629]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.02-05.47.21:060][629]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.02-05.47.21:060][629]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.02-05.47.21:065][629]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.02-05.47.21:068][629]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.02-05.47.21:068][629]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.02-05.47.21:068][629]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.02-05.47.21:068][629]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.02-05.47.21:074][629]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.02-05.47.21:075][629]LogHMD: Oculus shutdown.
+[2017.03.02-05.47.21:075][629]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.02-05.47.21:075][629]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.02-05.47.21:075][629]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.02-05.47.21:075][629]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.02-05.47.21:096][629]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.02-05.47.21:106][629]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.02-05.47.21:113][629]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.03.02-05.47.21:113][629]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9DB1089A-4AB8-EE65-B67A-B79CBCD89F2C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=d1e400e640ed942efc36d3ad47bcb68c%7C50a6020c681a420486ec2b408860cae7%7C782bc28d-3e1f-479b-947c-49f8c4ada764&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.02-05.47.21:113][629]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9DB1089A-4AB8-EE65-B67A-B79CBCD89F2C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=d1e400e640ed942efc36d3ad47bcb68c%7C50a6020c681a420486ec2b408860cae7%7C782bc28d-3e1f-479b-947c-49f8c4ada764&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.02-05.47.21:119][629]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.02-05.47.21:127][629]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.02-05.47.21:127][629]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.02-05.47.21:136][629]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.02-05.47.21:136][629]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.02-05.47.21:136][629]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.02-05.47.21:165][629]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.02-05.47.21:183][629]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.02-05.47.21:183][629]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.02-05.47.21:197][629]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.02-05.47.21:197][629]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.02-05.47.21:197][629]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.02-05.47.21:197][629]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.02-05.47.21:204][629]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.02-05.47.21:210][629]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.02-05.47.21:210][629]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.02-05.47.21:220][629]LogExit: Exiting.
+[2017.03.02-05.47.21:225][629]Log file closed, 03/02/17 14:47:21
