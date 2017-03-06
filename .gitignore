@@ -80,4 +80,5 @@
 
 # Ignore any saved local files
 /*/Saved/**
+*/Saved/*
 /Saved/*
